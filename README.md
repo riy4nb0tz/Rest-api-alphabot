@@ -445,7 +445,7 @@ case 'base64encode':
 Example Case:
 
 case 'covid_word':
-     ini_result = await fetchJson('https://api-alphabot.herokuapp.com/api/covidworld?apikey=Alphabot')
+     ini_result = await fetchJson('https://api-alphabot.herokuapp.com/api/covidworld?apikey=Aero')
      get_result = ini_result.result
         ini_txt = `C O V I D  W O R L D`
         ini_txt += `Total Case : ${get_result.totalCases}\n`
