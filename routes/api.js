@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')
 }
 
-var creator = "@zeeoneofc"
+var creator = "@riyan"
 var ytdl = require('ytdl-core');
 var ytpl = require('ytpl');
 var secure = require('ssl-express-www');
@@ -42,7 +42,7 @@ loghandler = {
         creator: `${creator}`,
         code: 406,
         message: 'masukan parameter apikey',
-        getApikey: 'Apikey??? Contact Me On WhatsApp'
+        getApikey: 'Aero'
     },
     notkey: {
         status: false,
